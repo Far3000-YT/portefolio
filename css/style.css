@@ -174,7 +174,7 @@ ol {
   --cursor-dot-hover-opacity: 0.5;
   --cursor-transition-duration: 0.2s;
   --cursor-transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
-  --cursor-position-transition: 0.04s;
+  --cursor-position-transition: 0s;
 
 
   --light-size: max(1800px, 65vw);
