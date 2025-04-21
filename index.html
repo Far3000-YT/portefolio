@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-accent-color="gold">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Fares's Portefolio
+    </title>
+    <meta
+      name="description"
+      content="Portfolio of Fares Bentaleb, a Python Developer and Computer Science student at ISEP, exploring backend engineering, AI, APIs, and quantitative concepts."
+    />
+    <link rel="icon" href="images/favicon.ico" sizes="any" />
+    <link rel="icon" href="images/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="logo">
+          <a href="#hero" aria-label="Scroll to top">FB</a>
+        </div>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <a
+            href="https://github.com/Far3000-YT"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub Profile"
+            class="header-button icon-button"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              role="img"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://linkedin.com/in/fares-bentaleb"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn Profile"
+            class="header-button icon-button"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              width="20"
+              height="20"
+              aria-hidden="true"
+            >
+              <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://twitter.com/0xFar3000"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X Profile"
+            class="header-button icon-button"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              width="18"
+              height="18"
+              aria-hidden="true"
+            >
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+              />
+            </svg>
+          </a>
+          <a
+            href="documents/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="header-button resume-button"
+            aria-label="View Resume"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path
+                d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+              />
+              <polyline points="14 2 14 8 20 8" />
+              <line x1="16" y1="13" x2="8" y2="13" />
+              <line x1="16" y1="17" x2="8" y2="17" />
+            </svg>
+            <span>Resume</span>
+          </a>
+          <button
+            id="color-palette-toggle"
+            class="header-button icon-button"
+            aria-label="Choose accent color"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              width="20"
+              height="20"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H16c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S5.67 9 6.5 9 8 9.67 8 10.5 7.33 12 6.5 12zm3-4C8.67 8 8 7.33 8 6.5S8.67 5 9.5 5s1.5.67 1.5 1.5S10.33 8 9.5 8zm5 0c-.83 0-1.5-.67-1.5-1.5S13.67 5 14.5 5s1.5.67 1.5 1.5S15.33 8 14.5 8zm3 4c-.83 0-1.5-.67-1.5-1.5S16.67 9 17.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"
+              />
+            </svg>
+          </button>
+          <button
+            id="theme-toggle"
+            class="header-button icon-button theme-toggle-button"
+            aria-label="Toggle theme"
+          >
+            <svg
+              class="sun-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="5" />
+              <line x1="12" y1="1" x2="12" y2="3" />
+              <line x1="12" y1="21" x2="12" y2="23" />
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+              <line x1="1" y1="12" x2="3" y2="12" />
+              <line x1="21" y1="12" x2="23" y2="12" />
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+            </svg>
+            <svg
+              class="moon-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+            </svg>
+          </button>
+        </div>
+        <div id="color-palette-dropdown" class="color-palette-dropdown" aria-hidden="true">
+          <button class="color-choice-button" data-color="gold" aria-label="Set accent color to Gold" style="background-color: #FFD700;"></button>
+          <button class="color-choice-button" data-color="teal" aria-label="Set accent color to Teal" style="background-color: #00CED1;"></button>
+          <button class="color-choice-button" data-color="emerald" aria-label="Set accent color to Emerald Green" style="background-color: #2ECC71;"></button>
+          <button class="color-choice-button" data-color="navy" aria-label="Set accent color to Deep Blue" style="background-color: #000080;"></button>
+        </div>
+      </div>
+    </header>
+
+    <div class="scroll-container">
+      <section id="hero" class="scroll-section" data-section-index="0">
+        <div class="section-content hero-content">
+          <h1 class="hero-title">Fares</h1>
+          <h2 class="hero-subtitle">Python Developer | CS Student @ISEP</h2>
+          <p class="hero-description">
+            Building the logic behind the scenes. Fascinated by AI, APIs, and the quantitative world.
+            <br />Studying Computer Science in Paris.
+          </p>
+          <a href="#projects" class="hero-cta scroll-link">View Projects</a>
+          <div class="scroll-indicator">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M12 5v14M19 12l-7 7-7-7" />
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="about"
+        class="scroll-section alternate-bg"
+        data-section-index="1"
+      >
+        <div class="animated-shapes">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+          <div class="shape shape-3"></div>
+        </div>
+        <div class="noise-overlay"></div>
+        <div class="section-content">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                Pursuing my CS Master's at ISEP, my Python focus centers on backend engineering (architecture, APIs, data flows) and personal projects in quantitative simulations and AI tools like Gemini.
+              </p>
+              <p>
+                While I have an eye for clean aesthetics (you're looking at it!), my core satisfaction comes from crafting robust, efficient logic that solves problems effectively.
+              </p>
+              <p>
+                Beyond the screen, the patterns and precision in rhythm games (Osu!), the strategic elements in League of Legends, and the structure of piano offer different kinds of engaging flow states :)
+              </p>
+            </div>
+            <div class="about-skills">
+              <h3>Core Skills & Interests</h3>
+              <ul>
+                <li>Python (Expert) & Ecosystem (NumPy, Pandas, SciPy, Flask)</li>
+                <li>Backend Development (API Design - REST, System Architecture Concepts)</li>
+                <li>Databases (Data Modeling, SQL, NoSQL Concepts)</li>
+                <li>DevOps & Tooling (Git, Docker, CLI Development, Linux Basics)</li>
+                <li>AI & Data (Quant Simulation - SDEs, LLM APIs/Prompt Engineering, Automation)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="projects"
+        class="scroll-section projects-section"
+        data-section-index="2"
+      >
+        <div class="section-content">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="project-grid">
+            <button
+              class="project-card"
+              data-project-id="ptap"
+              aria-label="View details for PTAP project"
+            >
+              <div class="project-card-content">
+                <span class="project-card-icon" aria-hidden="true">🐍</span>
+                <h3>PTAP</h3>
+                <p>AI Code Analysis CLI Tool</p>
+              </div>
+            </button>
+             <button
+              class="project-card"
+              data-project-id="sde-sim"
+              aria-label="View details for SDE Simulation project"
+            >
+              <div class="project-card-content">
+                <span class="project-card-icon" aria-hidden="true">📈</span>
+                <h3>SDE Simulation</h3>
+                <p>Quant Finance Modeling (Python)</p>
+              </div>
+            </button>
+             <button
+              class="project-card"
+              data-project-id="ai-responder"
+              aria-label="View details for AI Responder Background Tool"
+            >
+              <div class="project-card-content">
+                 <span class="project-card-icon" aria-hidden="true">🤖</span>
+                <h3>AI Responder Tool</h3>
+                <p>Hotkey-Driven Background AI (Python)</p>
+              </div>
+            </button>
+             <button
+              class="project-card"
+              data-project-id="tender-response"
+              aria-label="View details for Automated Tender Response System"
+            >
+              <div class="project-card-content">
+                 <span class="project-card-icon" aria-hidden="true">📄</span>
+                <h3>Tender Response System</h3>
+                <p>Automated Doc Gen (Python/Flask/AI)</p>
+              </div>
+            </button>
+            <button
+              class="project-card"
+              data-project-id="dont-click"
+              aria-label="View details for Don't Click! Email Security Extension"
+            >
+              <div class="project-card-content">
+                 <span class="project-card-icon" aria-hidden="true">🛡️</span>
+                <h3>Don't Click! Extension</h3>
+                <p>Email Security Analysis (JS/AI)</p>
+              </div>
+            </button>
+            <button
+              class="project-card"
+              data-project-id="proj-mgmt-app"
+              aria-label="View details for Project Management Desktop App"
+            >
+              <div class="project-card-content">
+                <span class="project-card-icon" aria-hidden="true">🖥️</span>
+                <h3>Project Management App</h3>
+                <p>Full-Stack Desktop App (JavaFX/Spring)</p>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="scroll-section contact-section alternate-bg"
+        data-section-index="3"
+      >
+        <div class="animated-shapes">
+          <div class="shape shape-4"></div>
+          <div class="shape shape-5"></div>
+          <div class="shape shape-6"></div>
+        </div>
+        <div class="noise-overlay"></div>
+        <div class="section-content contact-content">
+          <h2 class="section-title">Get In Touch</h2>
+          <p>
+            Open to connecting about Python backend development, interesting projects, or collaborations. Feel free to send an email or find me below !
+          </p>
+          <a href="mailto:far3000yt@gmail.com" class="contact-button">
+            <span>Send an Email</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+          <div class="contact-socials">
+            <p>
+              Find me on
+              <a
+                href="https://github.com/Far3000-YT"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >,
+              <a
+                href="https://linkedin.com/in/fares-bentaleb"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >, and
+              <a
+                href="https://twitter.com/0xFar3000"
+                target="_blank"
+                rel="noopener noreferrer"
+                >X</a
+              >.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+     <div
+      id="project-modal"
+      class="modal-overlay"
+      aria-hidden="true"
+      role="dialog"
+      aria-labelledby="modal-project-title"
+      aria-modal="true"
+    >
+      <div class="modal-content">
+        <button class="modal-close-button" aria-label="Close project details">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </button>
+        <div class="modal-body">
+          <h2 id="modal-project-title" class="modal-project-title"></h2>
+          <img
+            src="images/placeholder-project.png"
+            alt=""
+            class="modal-project-image"
+            style="display: none"
+          />
+          <p class="modal-project-description"></p>
+          <div class="modal-project-details">
+            <h4>Key Features:</h4>
+            <ul class="modal-project-features"></ul>
+            <h4>Tech Stack:</h4>
+            <div class="modal-project-tags"></div>
+          </div>
+          <div class="modal-project-links">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="modal-project-link-button github"
+              aria-label="View project on GitHub"
+              style="display: none;"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                width="18"
+                height="18"
+                aria-hidden="true"
+              >
+                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+              <span>GitHub</span>
+            </a>
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="modal-project-link-button other"
+              aria-label="View project live or on another platform"
+              style="display: none;"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                width="18"
+                height="18"
+                aria-hidden="true"
+              >
+                <path
+                  d="M10 6V8H5V19H16V14H18V19C18 20.1 17.1 21 16 21H5C3.9 21 3 20.1 3 19V8C3 6.9 3.9 6 5 6H10ZM19 3H14V5H16.59L11.3 10.29L12.71 11.7L18 6.41V9H20V4C20 3.45 19.55 3 19 3Z"
+                />
+              </svg>
+              <span class="other-link-text"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="cursor-dot"></div>
+    <div id="background-light"></div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
