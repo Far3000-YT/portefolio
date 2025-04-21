@@ -335,7 +335,6 @@ html[data-theme="light"][data-accent-color="navy"] {
       background-color: var(--cursor-dot-bg);
       border: none;
       transition:
-        transform var(--cursor-position-transition) linear,
         scale var(--cursor-transition-duration) var(--cursor-transition-timing),
         opacity 0.15s ease-out,
         width var(--cursor-transition-duration) var(--cursor-transition-timing),
