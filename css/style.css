@@ -1482,6 +1482,12 @@ body.has-scrolled .scroll-indicator {
     font-size: 15px;
   }
 
+  .about-text p {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    margin-bottom: 1.2em;
+  }
+
   .scroll-section {
     padding: 5rem 1rem 2rem 1rem;
   }
@@ -1548,8 +1554,6 @@ body.has-scrolled .scroll-indicator {
   .projects-section .section-title {
      margin-bottom: 1.8em;
   }
-
-  .about-text p { font-size: 0.95rem; line-height: 1.7; }
 
   .project-click-indicator {
     left: 50%;
@@ -1618,6 +1622,12 @@ body.has-scrolled .scroll-indicator {
     font-size: 14px;
   }
 
+  .about-text p {
+    font-size: 0.8rem;
+    line-height: 1.55;
+    margin-bottom: 1em;
+  }
+
   .scroll-section { padding: 4rem 0.8rem 2rem 0.8rem; }
 
   .site-header {
@@ -1656,8 +1666,6 @@ body.has-scrolled .scroll-indicator {
   .header-actions a[aria-label="LinkedIn Profile"] {
     display: none;
   }
-
-  .about-text p { font-size: 0.9rem; line-height: 1.6; }
 
   .project-grid { gap: 1.2rem; padding: 0 0.2rem; }
   .project-card { padding: 1.1rem 0.9rem; }
