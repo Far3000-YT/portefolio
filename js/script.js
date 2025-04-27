@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     3: { currencyTimeoutId: null }
   };
 
-  const SCROLL_ANIMATION_DURATION = 1000;
+  const SCROLL_ANIMATION_DURATION = 700;
   const CURRENCY_SPAWN_INTERVAL = [700, 1000];
   const CURRENCY_ANIMATION_DURATION = [2500, 5000];
 
