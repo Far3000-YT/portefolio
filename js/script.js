@@ -87,11 +87,11 @@ document.addEventListener('DOMContentLoaded', () => {
       otherLink: "https://github.com/Far3000-YT/project-management-app-api",
       otherLinkText: "Backend API"
     },
-    "ptap": {
-      title: "PTAP - Project To AI Prompt Utility",
-      imgSrc: "images/project-ptap.png",
-      imgAlt: "PTAP CLI + browser (Google AI Studio) demo",
-      description: "A popular Python CLI utility (>500 PyPI downloads) designed to bridge the gap between complex codebases and AI language models. PTAP automates the tedious process of gathering project structure and relevant code files, generating a single, comprehensive, and well-formatted prompt optimized for AI analysis, debugging, or documentation tasks.",
+    "lumen": {
+      title: "Lumen - Project To AI Prompt Utility",
+      imgSrc: "images/project-lum.png",
+      imgAlt: "Lumen CLI + browser (Google AI Studio) demo",
+      description: "A Python CLI utility (>1000 PyPI downloads) designed to bridge the gap between complex codebases and AI language models. Lumen automates the tedious process of gathering project structure and relevant code files, generating a single, comprehensive, and well-formatted prompt optimized for AI analysis, debugging, or documentation tasks.",
       features: [
         "Automated Prompt Generation: Scans local project directories or clones public GitHub repositories.",
         "Intelligent Code Aggregation: Includes directory structure (JSON) and relevant source file content.",
@@ -104,8 +104,8 @@ document.addEventListener('DOMContentLoaded', () => {
       tags: [
         "Python", "CLI", "PyPI", "File I/O", "Automation", "AI Tooling", "argparse", "requests", "pyperclip", "Git"
       ],
-      githubLink: "https://github.com/Far3000-YT/PTAP",
-      otherLink: "https://pypi.org/project/ptap/",
+      githubLink: "https://github.com/Far3000-YT/lumen",
+      otherLink: "https://pypi.org/project/pylumen/",
       otherLinkText: "PyPI"
     },
     "dont-click": {
